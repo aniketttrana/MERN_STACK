@@ -1,4 +1,4 @@
-/* Reactjs is a javascript library for Building UI componenets developed by facebook
+/* Reactjs is a javascript library for Building UI componenets. It is  developed by facebook
 
 We can use the Components again and again
 with some modifications in it

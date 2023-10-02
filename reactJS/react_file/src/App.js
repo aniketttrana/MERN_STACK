@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import ClassHeader from "./components/ClassHeader";
+import Channelstate from "./components/Channelstate";
 const name = <span>Github</span>;
 const a = "jaiho";
 
@@ -52,6 +53,9 @@ function App() {
         {/* for age */}
         {age(22)}
       </header>
+      {/* Passing props in class component */}
+      <ClassHeader name="CAniket" last="CRana"></ClassHeader>
+      <Channelstate />
     </div>
   );
 

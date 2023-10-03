@@ -3,6 +3,10 @@ import "./App.css";
 import Header from "./components/Header";
 import ClassHeader from "./components/ClassHeader";
 import Channelstate from "./components/Channelstate";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
+
+
 const name = <span>Github</span>;
 const a = "jaiho";
 
@@ -56,6 +60,14 @@ function App() {
       {/* Passing props in class component */}
       <ClassHeader name="CAniket" last="CRana"></ClassHeader>
       <Channelstate />
+<div>
+    <FunctionClick/>
+</div>
+
+<div>
+    <ClassClick/>
+</div>
+
     </div>
   );
 

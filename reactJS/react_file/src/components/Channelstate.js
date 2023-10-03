@@ -1,6 +1,6 @@
 import React from "react";
 class Channelstate extends React.Component {
-  //    for using state we have to use constructor
+  // for using state we have to use constructor
   // we can change the state values by setState
 
   // The state is a built-in React object that is used to contain data or information about the component. A component’s state can change over time; whenever it changes, the component re-renders.

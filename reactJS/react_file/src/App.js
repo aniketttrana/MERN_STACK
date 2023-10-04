@@ -5,7 +5,7 @@ import ClassHeader from "./components/ClassHeader";
 import Channelstate from "./components/Channelstate";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
-
+import List from "./components/List";
 
 const name = <span>Github</span>;
 const a = "jaiho";
@@ -67,7 +67,10 @@ function App() {
 <div>
     <ClassClick/>
 </div>
-
+<div>
+  <List/>
+  
+</div>
     </div>
   );
 

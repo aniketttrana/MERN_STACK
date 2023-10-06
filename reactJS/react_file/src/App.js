@@ -6,7 +6,8 @@ import Channelstate from "./components/Channelstate";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import List from "./components/List";
-
+import Stylesheet from "./components/Stylesheet";
+import Inline from "./components/Inline";
 const name = <span>Github</span>;
 const a = "jaiho";
 
@@ -71,6 +72,11 @@ function App() {
   <List/>
   
 </div>
+<div>
+ {/* if we write isvalue=true , we get color */}
+  <Stylesheet isvalue={false}></Stylesheet>
+</div>
+<Inline/>
     </div>
   );
 

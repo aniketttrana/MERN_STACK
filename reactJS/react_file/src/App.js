@@ -8,6 +8,8 @@ import ClassClick from "./components/ClassClick";
 import List from "./components/List";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
+import Form from "./components/Form";
+import Routing1 from "./components/Routing1";
 const name = <span>Github</span>;
 const a = "jaiho";
 
@@ -77,6 +79,16 @@ function App() {
   <Stylesheet isvalue={false}></Stylesheet>
 </div>
 <Inline/>
+<div>
+  <Form/>
+</div>
+<div>
+<div>
+  {/* we use this in tag form */}
+  <Routing1></Routing1>
+  </div>
+</div>
+
     </div>
   );
 
